@@ -41,7 +41,22 @@
     width: 10rem;
 }
 
-
 /* boxes end */
 
 /* Section end */
+
+/* RWD */
+@media(max-width: 765px) {
+
+    #cover h1 {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+}
