@@ -24,30 +24,6 @@
 
 /* Cover end */
 
-/* newsletter start*/
-#newsletter {
-    padding: 1rem;
-    color: #e9c46a;
-    background-color: #264653;
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 1rem;
-}
-
-#newsletter input[type='email'] {
-    padding: 4px;
-    height: 1.5rem;
-    width: 15rem;
-}
-
-/* newsletter end */
-
 /* boxes start */
 #boxes {
     margin-top: 2rem;
