@@ -29,7 +29,6 @@ ul {
     background-color: #f4a261;
     outline: 0;
     border: none;
-    margin-left: 0.25rem;
     color: #f1faee;
 }
 
@@ -140,4 +139,61 @@ footer {
     color: #fff;
     background-color: #2a9d8f;
     text-align: center;
+}
+
+/* RWD */
+
+@media(max-width: 1260px) {
+
+    header {
+        padding-bottom: 1rem;
+    }
+
+
+    article.main-article,
+    aside.sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    aside.sidebar {
+        width: 90%;
+    }
+
+}
+
+
+@media(max-width: 765px) {
+
+    header {
+        padding-bottom: 1rem;
+    }
+
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    article.main-article,
+    aside.sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type='email'] {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    aside.sidebar {
+        width: 80%;
+    }
+
 }
