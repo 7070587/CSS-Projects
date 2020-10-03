@@ -4,20 +4,6 @@
     background-color: #a8dadc;
 }
 
-/* sidebar */
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 1rem;
-    background-color: #457b9d;
-    color: #fff;
-    padding: 1rem 1.5rem;
-}
-
-/* article */
-article#main-article {
-    float: left;
-    width: 65%;
-    margin-top: 1rem;
-
+aside.sidebar-about {
+    background-color: #457b9d
 }
