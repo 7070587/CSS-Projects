@@ -1,0 +1,6 @@
+.container {
+    min-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
