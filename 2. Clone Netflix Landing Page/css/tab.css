@@ -38,7 +38,6 @@
 
 .tab-border {
     border-bottom: 4px solid var(--colorPrimary);
-
 }
 
 .tab-content {
@@ -63,6 +62,8 @@
     gap: 2rem;
     align-items: center;
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #tab-2-content .tab-2-content-bottom {
@@ -75,4 +76,7 @@
     margin-top: 2rem;
 }
 
-.tab-item {}
+#tab-3-content {
+    margin-top: 6rem;
+
+}
