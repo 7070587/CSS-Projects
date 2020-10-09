@@ -18,5 +18,5 @@
 }
 
 .text-dark {
-    color: #999;
+    color: var(--colorGrey);
 }

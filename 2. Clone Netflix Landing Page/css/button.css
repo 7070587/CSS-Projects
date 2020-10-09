@@ -2,7 +2,7 @@
 
 .btn {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: var(--colorPrimary);
     color: var(--colorWhite);
     margin-right: 0.5rem;
     padding: 0.4rem 1.3rem;

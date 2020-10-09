@@ -1,7 +1,7 @@
 @import './global.css';
 
 .tabs {
-    background-color: var(--dark-color);
+    background-color: var(--colorDark);
     padding-top: 1rem;
     border-bottom: 3px solid #3d3d3d;
 }
@@ -37,13 +37,13 @@
 }
 
 .tab-border {
-    border-bottom: 4px solid var(--primary-color);
+    border-bottom: 4px solid var(--colorPrimary);
 
 }
 
 .tab-content {
     padding: 3rem 0;
-    background-color: #000;
+    background-color: var(--colorBlack);
     color: var(--colorWhite);
 }
 
