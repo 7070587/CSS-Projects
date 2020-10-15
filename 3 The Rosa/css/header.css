@@ -92,3 +92,21 @@ header {
   opacity: 1;
   transform: scale(1);
 }
+
+/*  */
+.nav__item {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav__item--link {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    transition: color 0.7s;
+}
+
+.nav__item--link:hover {
+    color: var(--secondary-font-color);
+}
