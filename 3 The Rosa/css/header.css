@@ -18,7 +18,7 @@ header {
 }
 
 /* Font Awesome  */
-.menu-toggle {
+.nav__menu-toggle-button {
   color: #fff;
   font-size: 2.2rem;
   position: absolute;
@@ -29,8 +29,8 @@ header {
   z-index: 100;
 }
 
-.menu-toggle:hover {
-  color: whitesmoke;
+.nav__menu-toggle-button:hover {
+  color: #eee;
 }
 
 /* hide X */
@@ -39,7 +39,7 @@ header {
 }
 
 /* nav list */
-.nav-list {
+.nav__list {
   list-style: none;
   position: fixed;
   top: 0;
@@ -77,14 +77,14 @@ header {
 }
 
 .open .fa-times:hover {
-  color: whitesmoke;
+  color: #eee;
 }
 
 .open .fa-bars {
   display: none;
 }
 
-.open .nav-list {
+.open .nav__list {
   transform: translateX(0);
 }
 
