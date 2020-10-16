@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -2px;
+}
+
+.btn__cta {
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 0.9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: 0.4rem;
+    transition: background-color 0.7s;
+}
+
+.btn__cta:hover, 
+.btn__cta:focus {
+    color: #fff;
+    background-color: var(--secondary-font-color);
+}
