@@ -8,32 +8,6 @@
     text-align: center;
 }
 
-.cover__sub-headline {
-    font-size: 8.5rem;
-    font-family: var(--secondary-font);
-    color: var(--secondary-font-color);
-    font-weight: 200;
-    line-height: 0.5;
-    letter-spacing: 2px;
-    margin-right: -2px;
-}
-
-.cover__sub-headline--first-letter {
-    text-transform: uppercase;
-    font-style: 10.5rem;
-}
-
-.cover__headline {
-    color: #fff;
-    font-size: 3.5rem;
-    font-family: var(--main-font);
-    text-transform: uppercase;
-    font-weight: bolder;
-    letter-spacing: 0.5rem;
-    margin-right: -0.5rem;
-    margin-top: 0.5rem;
-}
-
 .cover__separator {
     display: flex;
     align-items: center;
@@ -73,7 +47,7 @@
     margin: 0 1.6rem;
 
 }
-.cover__headline-description h5 {
+.cover__description h5 {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 200;
