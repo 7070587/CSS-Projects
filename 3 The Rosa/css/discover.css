@@ -1,21 +1,18 @@
-.btn {
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: -2px;
+.discover {
+    text-align: center;
 }
 
-.btn__cta {
-    font-size: 1.2rem;
-    background-color: #fff;
-    padding: 0.9rem 1.8rem;
-    color: var(--body-font-color);
-    border-radius: 0.4rem;
-    transition: background-color 0.7s;
+.discover__restaurant-info {
 }
 
-.btn__cta:hover, 
-.btn__cta:focus {
-    color: #fff;
-    background-color: var(--secondary-font-color);
+.discover__restaurant-descripton {
+    margin-bottom: 3rem;
 }
+
+.discover__restaurant-descripton p {
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+
+.discover__restaurant-info {}
