@@ -19,3 +19,31 @@
     color: #fff;
     background-color: var(--secondary-font-color);
 }
+
+.btn__body {
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+    position: relative;
+    transition: color 0.7s;
+}
+
+.btn__body::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2.5px;
+    background-color: var(--secondary-font-color);
+    transition: background-color 0.7s;
+}
+
+.btn__body:hover,
+.btn__body:focus {
+    color: var(--main-font-color-dark);
+}
+
+.btn__body:hover::before,
+.btn__body:focus::before {
+    background-color: var(--main-font-color-dark);
+}
