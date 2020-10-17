@@ -1,12 +1,14 @@
 @import './global.css';
 @import './header.css';
 @import './cover.css';
-@import './discovery.css';
+@import './headline.css';
+@import './discover.css';
 
 @import './footer.css';
 
 @import './container.css';
 @import './button.css';
+@import './animate.css';
 
 
 @import './media.css';
