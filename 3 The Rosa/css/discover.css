@@ -1,8 +1,7 @@
-.discover {
-    text-align: center;
-}
+.discover {}
 
 .discover__restaurant-info {
+    text-align: center;
 }
 
 .discover__restaurant-descripton {
@@ -10,9 +9,7 @@
 }
 
 .discover__restaurant-descripton p {
+    font-size: 1.3rem;
     line-height: 1.6;
     margin-bottom: 2.5rem;
 }
-
-
-.discover__restaurant-info {}
