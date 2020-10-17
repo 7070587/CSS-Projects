@@ -1,0 +1,17 @@
+.recipes {
+    background: url(../image/tasteful-recipes.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.menu__image-group {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.blend {
+    background: url(../image/perfect-blend.jpg) center no-repeat;
+    background-size: cover;
+}

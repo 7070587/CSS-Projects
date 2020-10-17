@@ -1,15 +1,14 @@
-@import './global.css';
-@import './header.css';
-@import './cover.css';
-@import './headline.css';
-@import './discover.css';
-@import './recipes.css';
+@import "./global.css";
+@import "./header.css";
+@import "./cover.css";
+@import "./headline.css";
+@import "./discover.css";
+@import "./recipes_nemu_blend.css";
 
-@import './footer.css';
+@import "./footer.css";
 
-@import './container.css';
-@import './button.css';
-@import './animate.css';
+@import "./container.css";
+@import "./button.css";
+@import "./animate.css";
 
-
-@import './media.css';
+@import "./media.css";
