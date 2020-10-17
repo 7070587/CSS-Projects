@@ -23,3 +23,24 @@
     margin-right: -0.5rem;
     margin-top: 0.5rem;
 }
+
+.headline__global {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.headline__global--top {
+    margin-top: 7rem;
+}
+
+.headline__asterisk {
+    font-size: 1.2rem;
+    color: var(--body-font-color);
+    margin: 2.4rem 0;
+}
+
+.headline__title--dark {
+    color: var(--main-font-color-dark);
+    letter-spacing: 0.6rem;
+    margin-right: -0.6rem;
+}
