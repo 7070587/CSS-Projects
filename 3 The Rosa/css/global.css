@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap");
 
 /*Global styles*/
 *,
@@ -10,9 +10,9 @@
 }
 
 :root {
-    --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Herr Von Muellerhoff', cursive;
-    --body-font: 'Cabin', sans-serif;
+    --main-font: "Source Sans Pro", sans-serif;
+    --secondary-font: "Herr Von Muellerhoff", cursive;
+    --body-font: "Cabin", sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
@@ -38,3 +38,10 @@ a {
     text-decoration: none;
 }
 
+.padding__right {}
+
+.between {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
