@@ -11,6 +11,10 @@
     width: 7rem;
 }
 
+.nav__main-logo:hover {
+    cursor: pointer;
+}
+
 .nav__main ul {
     display: flex;
 }
