@@ -1,0 +1,36 @@
+.nav__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 1.25rem 0;
+    font-size: 0.9rem;
+}
+
+.nav__main-logo {
+    width: 7rem;
+}
+
+.nav__main ul {
+    display: flex;
+}
+
+.nav__main ul.nav__main-menu {
+    flex: 1;
+    margin-left: 1.25rem;
+}
+
+.nav__main ul li {
+    padding: 0 0.8rem;
+    font-weight: 500;
+}
+
+.nav__main ul li a {
+    margin-bottom: 0.25rem;
+}
+
+.nav__main ul li a:hover {
+    border-bottom: 2px solid var(--main-dark-color);
+}
+
+.nav__main-right {}
