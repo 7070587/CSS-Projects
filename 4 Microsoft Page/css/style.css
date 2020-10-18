@@ -1,8 +1,9 @@
 @import 'global.css';
 
 @import 'nav.css';
-@import 'header.css';
 @import 'cover.css';
+@import 'card.css';
+
 @import 'footer.css';
 
 @import 'button.css';
