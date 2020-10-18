@@ -1,9 +1,121 @@
-@media(max-width: 960px) {
-   
+@media screen and (min-width: 960px) {
+    section {
+        padding: 8rem;
+    }
 
-}
+    /* cover */
 
-@media(max-width: 600px) {
+    .nav__menu-toggle-button {
+        display: none;
+    }
 
-   
+    .nav {
+        justify-content: space-around;
+    }
+
+    .nav__list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        padding: 0;
+        justify-content: initial;
+        flex-direction: row;
+        transform: initial;
+        transition: initial;
+    }
+
+    .nav__item {
+        margin: 0 2rem;
+        border: none;
+    }
+
+    .nav__item:last-child {
+        margin-right: 0;
+    }
+
+    .nav__item--link {
+        font-size: 1.3rem;
+    }
+
+    .nav__item--link-active {
+        position: relative;
+    }
+
+    .nav__item--link-active::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        bottom: -3px;
+    }
+
+    .headline {
+        font-size: 10rem;
+    }
+
+    .headline__first-letter {
+        font-size: 12.5rem;
+    }
+
+    .headline__title {
+        font-size: 5rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .cover__line {
+        max-width: 11.5rem;
+    }
+
+    /* discover */
+    .discover__restaurant-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .discover__restaurant-info>div {
+        flex: 1;
+    }
+
+    .media__padding--right {
+        padding-right: 7rem;
+    }
+
+    .footer__content {
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer__content-about {
+        max-width: 51.5rem;
+        margin: 0 auto 5.5rem;
+    }
+
+    .footer__content-divider {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__content-divider-social,
+    .footer__content-newsletter-form {
+        width: 100%;
+        max-width: 27.5rem;
+        margin: 0 1rem;
+    }
+
+    .footer__content-divider-social i {
+        font-size: 1.8rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .footer__content-newsletter-form {
+        width: 20rem;
+    }
+
+    .btn__newsletter {
+        margin-left: 17rem;
+    }
+
 }
