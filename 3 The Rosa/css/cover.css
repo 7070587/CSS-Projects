@@ -20,6 +20,11 @@
     height: 0.25rem;
     background-color: #fff;
     position: relative;
+
+    /* animate */
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: 1s;
 }
 
 .cover__line--left::before,
@@ -29,6 +34,11 @@
     top: 50%;
     transform: translateY(-50%);
     border: 0.6rem solid transparent;
+
+    /* animate */
+    opacity: 0;
+    animation: grow 0.5s forwards;
+    animation-delay: 1.3s;
 }
 
 .cover__line--left::before {
@@ -45,6 +55,11 @@
     font-size: 1.2rem;
     color: var(--secondary-font-color);
     margin: 0 1.6rem;
+
+    /* animate */
+    opacity: 0;
+    animation: spin 0.5s forwards;
+    animation-delay: 0.7s;
 }
 
 
@@ -59,4 +74,9 @@
     margin-right: -3px;
 }
 
-.cover__single-animation {}
+.cover__single-animation {
+    /* animate */
+    opacity: 0;
+    animation: fadeDown 0.5s forwards;
+    animation-delay: 1.5s;
+}
