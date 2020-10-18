@@ -38,8 +38,6 @@ a {
     text-decoration: none;
 }
 
-.padding__right {}
-
 .between {
     min-height: 65vh;
     display: flex;
