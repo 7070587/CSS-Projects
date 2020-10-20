@@ -1,0 +1,15 @@
+.xbox {
+    width: 100%;
+    height: 22rem;
+    background: url(../image/xbox.png) no-repeat center center/cover;
+    margin-bottom: 2.5rem;
+}
+
+.xbox__content {
+    width: 40%;
+    padding: 3rem 0 0 1.5rem;
+}
+
+.xbox__content p {
+    margin: 1rem 0 1.25rem;
+}

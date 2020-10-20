@@ -1,0 +1,10 @@
+.fellow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0 1rem;
+}
+
+.fellow * {
+    margin-right: 1rem;
+}
