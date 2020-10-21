@@ -37,4 +37,17 @@
     border-bottom: 2px solid var(--main-dark-color);
 }
 
-.nav__main-right {}
+/* show window small */
+.nav__menu-btn {
+    cursor: pointer;
+    position: absolute;
+    transition: color 0.5s;
+    top: 1.25rem;
+    right: 2rem;
+    z-index: 2;
+    display: none;
+}
+
+.nav__menu-btn:hover {
+    color: #747d8c;
+}
