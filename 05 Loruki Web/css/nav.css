@@ -1,5 +1,5 @@
 .nav {
-    background-color: #047aed;
+    background-color: var(--primary-color);
     color: #fff;
     height: 4.35rem;
 }
