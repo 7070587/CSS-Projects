@@ -5,6 +5,7 @@
 
 @import 'cover.css';
 @import 'stats.css';
+@import 'cloud.css';
 @import 'cli.css';
 @import 'languages.css';
 
@@ -14,3 +15,5 @@
 @import 'button.css';
 @import 'text.css';
 @import 'margin.css';
+@import 'padding.css';
+@import 'background.css';
