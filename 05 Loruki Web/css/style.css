@@ -4,11 +4,13 @@
 @import 'footer.css';
 
 @import 'cover.css';
-@import 'status.css';
+@import 'stats.css';
 @import 'cli.css';
 @import 'languages.css';
 
-@import 'features.css';
 @import 'docs.css';
+@import 'features.css';
 
 @import 'button.css';
+@import 'text.css';
+@import 'margin.css';
