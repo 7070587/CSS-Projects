@@ -1,0 +1,15 @@
+@import 'global.css';
+
+@import 'header.css';
+@import 'footer.css';
+
+@import 'cover.css';
+@import 'status.css';
+@import 'cli.css';
+@import 'languages.css';
+
+@import 'features.css';
+@import 'docs.css';
+
+@import 'form.css';
+@import 'button.css';
