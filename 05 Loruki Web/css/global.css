@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 /* element */
+:root {
+    --primary-color: #047aed
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -52,4 +56,24 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    /* need to height to make align-items: center */
+    /* height: 100% will extends parent's height */
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 1.25rem;
+    margin: 0.35rem;
+    color: #333;
 }
