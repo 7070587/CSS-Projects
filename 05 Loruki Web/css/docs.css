@@ -1,0 +1,28 @@
+.docs__head img {
+    width: 12.5rem;
+    justify-self: flex-end;
+}
+
+.docs__main h3 {
+    margin: 1.25rem 0;
+}
+
+.docs__main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs__main nav li {
+    font-size: 1.1rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.docs__main a:hover {
+    font-weight: bold;
+}
+
+.docs__main-alart-icon {
+    margin-right: 0.75rem;
+}

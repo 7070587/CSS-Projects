@@ -1,0 +1,73 @@
+.cover {
+    height: 25rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.cover h1 {
+    font-size: 2.5rem;
+}
+
+.cover p {
+    margin: 1.25rem 0;
+}
+
+.cover::before,
+.cover::after {
+    content: '';
+    position: absolute;
+    height: 6.25rem;
+    bottom: -4.5rem;
+    background: #fff;
+    right: 0;
+    left: 0;
+
+    /* transform: skewY() 指定元素以參考點為中心軸沿著縱向傾斜 θ 度。 */
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+
+}
+
+.cover .grid {
+    /* show all data over cover height */
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 2rem
+}
+
+.cover__form {
+    position: relative;
+    top: 3.75rem;
+    height: 22rem;
+    width: 25rem;
+    padding: 2.5rem;
+    /* in grid, different element display it self */
+    justify-self: flex-end;
+    z-index: 10;
+}
+
+.cover__form-control {
+    margin: 2rem 0;
+}
+
+.cover__form-input {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.cover__form-input:focus {
+    outline: none;
+}
+
+.cover__text {
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.cover__form {
+    animation: slideInFromRight 1s ease-in;
+}

@@ -1,0 +1,11 @@
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli__img {
+    /* first: separater 2 columns */
+    grid-column: 1 / span 2;
+    /* second: separater 2 row */
+    grid-row: 1 / span 2;
+}

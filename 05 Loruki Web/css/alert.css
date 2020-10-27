@@ -1,0 +1,16 @@
+.alert {
+    background-color: var(--light-color);
+    padding: 0.65rem 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
