@@ -21,3 +21,15 @@
 .xl {
     font-size: 4rem;
 }
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
