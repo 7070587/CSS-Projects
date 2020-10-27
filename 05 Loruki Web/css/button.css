@@ -6,7 +6,7 @@
     color: #fff;
     border: none;
     border-radius: 0.35rem;
-    transition: transform 0.7s;
+    transition: transform 0.5s ease-in-out;
 }
 
 .btn:hover {
