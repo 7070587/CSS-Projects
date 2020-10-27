@@ -63,3 +63,11 @@
 .cover__form-input:focus {
     outline: none;
 }
+
+.cover__text {
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.cover__form {
+    animation: slideInFromRight 1s ease-in;
+}

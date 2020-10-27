@@ -1,16 +1,39 @@
-@import 'global.css';
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
 
-@import 'header.css';
-@import 'footer.css';
+    100% {
+        transform: translateX(0);
+    }
+}
 
-@import 'cover.css';
-@import 'status.css';
-@import 'cli.css';
-@import 'languages.css';
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
 
-@import 'features.css';
-@import 'docs.css';
+    100% {
+        transform: translateX(0);
+    }
+}
 
-@import 'form.css';
-@import 'animations.css';
-@import 'button.css';
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

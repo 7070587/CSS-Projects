@@ -20,11 +20,14 @@
     .cover__text {
         text-align: center;
         margin-top: 2.5rem;
+        animation: slideInFromTop 1s ease-in;
+
     }
 
     .cover__form {
         justify-self: center;
         margin: auto;
+        animation: slideInFromBottom 1s ease-in;
     }
 
     .cli__img {
