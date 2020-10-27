@@ -1,18 +1,52 @@
-@import 'global.css';
+/* tablets and under */
+@media(max-width: 768px) {
 
-@import 'header.css';
-@import 'footer.css';
+    /* index */
+    .grid,
+    .cover .grid,
+    .stats .grid,
+    .cli .grid,
+    .cloud .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 
-@import 'cover.css';
-@import 'status.css';
-@import 'cli.css';
-@import 'languages.css';
+    .cover {
+        height: auto;
+    }
 
-@import 'features.css';
-@import 'docs.css';
+    .cover__text {
+        text-align: center;
+        margin-top: 2.5rem;
+    }
 
-@import 'form.css';
-@import 'animations.css';
-@import 'button.css';
+    .cover__form {
+        justify-self: center;
+        margin: auto;
+    }
 
-@import 'media.css';
+    .cli__img {
+        /* 1 coulmn , 1 row */
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+/* mobile */
+@media(max-width: 500px) {
+
+    /* index */
+    .nav {
+        height: 7rem;
+    }
+
+    .nav .flex {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        padding: 0.7rem 0.65rem;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+}
