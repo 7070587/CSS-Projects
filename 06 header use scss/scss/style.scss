@@ -1,0 +1,86 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $light-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  @include setBackground($primary-color);
+
+  // same as   @include setBackground($primary-color);
+  // background-color: $primary-color;
+  // color: setTextColor($primary-color);
+  height: 37.5rem;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 1rem;
+      }
+
+      a {
+        color: setTextColor($primary-color);
+      }
+
+      a:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  //   a {
+  //     color: #fff;
+  //   }
+
+  &__content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    img {
+      width: 50%;
+    }
+
+    h1 {
+      font-size: 2.125rem;
+      line-height: 1.2;
+    }
+
+    p {
+      padding: 1.25rem 0;
+    }
+  }
+}
+
+@import "utilities";
+@import "buttons";
+@import "mobile";
