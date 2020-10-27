@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.text-lead {
+    font-size: 1.25rem;
+}
+
 .sm {
     font-size: 1rem;
 }
