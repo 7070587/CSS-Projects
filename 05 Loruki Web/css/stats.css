@@ -1,8 +1,11 @@
 .stats {
     padding-top: 6.5rem;
+    animation: slideInFromBottom 1s ease-in;
+
 }
 
 .stats__heading {
+    text-align: center;
     max-width: 31.25rem;
     margin: auto;
     /* justify-content: center; */

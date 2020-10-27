@@ -1,0 +1,18 @@
+.languages .flex {
+    flex-wrap: wrap;
+}
+
+.languages .card {
+    text-align: center;
+    margin: 1.125rem 0.65rem 2.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.languages .card:hover {
+    transform: translateY(-1rem);
+}
+
+.languages h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.65rem;
+}
