@@ -6,7 +6,9 @@
     .cover .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid {
+    .cloud .grid,
+    .features__main .grid,
+    .docs__main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -29,6 +31,24 @@
         /* 1 coulmn , 1 row */
         grid-column: 1;
         grid-row: 1;
+    }
+
+    /* feature, docs */
+    .features__head,
+    .features__sub-head,
+    .docs__head {
+        text-align: center;
+    }
+
+    .features__head img,
+    .features__sub-head img,
+    .docs__head img {
+        justify-self: center;
+    }
+
+    .features__main-item--first,
+    .features__main-item--second {
+        grid-column: 1;
     }
 }
 
